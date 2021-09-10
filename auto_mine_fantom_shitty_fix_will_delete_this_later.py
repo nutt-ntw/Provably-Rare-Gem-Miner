@@ -13,9 +13,9 @@ import requests
 load_dotenv()
 
 # change wallet here or in .env
-WALLET_ADDRESS = os.getenv('WALLET_ADDRESS', 'DEFAULT_WALLET')
+WALLET_ADDRESS = os.getenv('WALLET_ADDRESS', '0xf341965b08Da2E10717Ef5B3E3E4BA8F669dfc0f')
 # change influra api key here or in .env
-TARGET_GEM = int(os.getenv('TARGET_GEM', 1))  # change gem here or in .env
+TARGET_GEM = int(os.getenv('TARGET_GEM', 3))  # change gem here or in .env
 
 # config here
 w3 = Web3(Web3.HTTPProvider('https://rpc.ftm.tools'))
